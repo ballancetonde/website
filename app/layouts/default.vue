@@ -40,6 +40,7 @@ const items = computed(() => [
     <UNavigationMenu :items="items" />
     <template #right>
       <UButton
+          class="hidden sm:flex"
           color="primary"
           to="/adhesion"
           label="Adhésion"
@@ -59,6 +60,15 @@ const items = computed(() => [
           target="_blank"
           icon="i-simple-icons-facebook"
           aria-label="Facebook"
+      />
+    </template>
+    <template #body>
+      <UNavigationMenu :items="items" orientation="vertical" />
+      <UButton
+          class="w-full"
+          color="primary"
+          to="/adhesion"
+          label="Adhésion"
       />
     </template>
   </UHeader>
