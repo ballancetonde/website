@@ -8,7 +8,9 @@ export default defineContentConfig({
             // Specify the type of content in this collection
             type: 'page',
             schema: z.object({
-                date: z.date()
+                date: z.date(),
+                image: z.string(),
+                address: z.string()
             })
         })
     }

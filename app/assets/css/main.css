@@ -1,2 +1,18 @@
 @import "tailwindcss" theme(static);
 @import "@nuxt/ui-pro";
+
+@theme static {
+    --color-green-50: #dcfefa;
+    --color-green-100: #bffdf6;
+    --color-green-200: #7efbed;
+    --color-green-300: #39f9e3;
+    --color-green-400: #07e9ce;
+    --color-green-500: #05a895;
+    --color-green-600: #048677;
+    --color-green-700: #036358;
+    --color-green-800: #02453d;
+    --color-green-900: #01231f;
+    --color-green-950: #000f0d;
+}
+
+@source "../../../content";
