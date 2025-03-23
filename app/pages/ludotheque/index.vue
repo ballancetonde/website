@@ -1,5 +1,7 @@
 <script setup>
-
+const { data: games } = await useAsyncData(useRoute().path, () => {
+  return queryCollection('games').all()
+})
 </script>
 
 <template>
@@ -11,7 +13,15 @@
     />
 
     <UPageBody>
-      Bientôt disponible
+      <UBlogPosts>
+        <UBlogPost
+            v-for="(game, index) in games"
+            :key="index"
+            :description="game.description"
+            :image="game.image"
+            :title="game.title"
+        />
+      </UBlogPosts>
     </UPageBody>
   </UContainer>
 </template>
