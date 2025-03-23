@@ -1,1 +1,0 @@
-const t={events:"v3.2.0--Iy1PaqWkjj"},n={events:"_content_events",info:"_content_info"},s={events:{type:"page",fields:{id:"string",stem:"string",extension:"string",meta:"json",path:"string",title:"string",description:"string",seo:"json",body:"json",navigation:"json",date:"string",image:"string",address:"string"}},info:{type:"data",fields:{}}};export{s as a,t as c,n as t};
