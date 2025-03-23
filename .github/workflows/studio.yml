@@ -11,6 +11,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  schedule:
+    - cron: '0 0 * * *'  # Every days at 00:00 UTC
+
 # Add write workflow permissions
 permissions:
   contents: write
