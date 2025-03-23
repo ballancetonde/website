@@ -22,6 +22,15 @@ export default defineContentConfig({
             schema: z.object({
                 title: z.string(),
                 description: z.string(),
+                players: z.object({
+                    min: z.number(),
+                    max: z.number(),
+                }),
+                play_time_mins: z.number(),
+                donation: z.boolean(),
+                purchase_date: z.string().date(),
+                video: z.string(),
+                image: z.string().editor({ input: 'media' }),
             })
         })
     }
