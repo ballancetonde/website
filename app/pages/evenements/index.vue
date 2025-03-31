@@ -22,7 +22,8 @@ const { data: previousEvents } = await useAsyncData(useRoute().path + '-prev', (
             :key="index"
             :description="post.address"
             :image="post.image"
-            :title="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+            :date="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+            :title="post.title"
             :orientation="'horizontal'"
             class="col-span-full"
             :ui="{
@@ -37,7 +38,8 @@ const { data: previousEvents } = await useAsyncData(useRoute().path + '-prev', (
               :key="index"
               :description="post.address"
               :image="post.image"
-              :title="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+              :date="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+              :title="post.title"
               :ui="{
             description: 'line-clamp-2'
           }"
