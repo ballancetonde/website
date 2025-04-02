@@ -12,5 +12,11 @@ export default defineNuxtConfig({
   ],
   ui: {
     colorMode: false,
+  },
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 256,
+    },
   }
 })
