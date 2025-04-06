@@ -1,3 +1,10 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Adhésion',
+  description: 'Rejoignez l\'aventure et lancez vos dés ! Ballan\'ce ton dé est une association de jeu de société située à Ballan-Miré. Nous organisons deux événements par mois, avec des dates qui varient, pour partager des moments ludiques et conviviaux autour d\'une grande variété de jeux.',
+})
+</script>
+
 <template>
   <UPageHero
       title="Adhésion"
@@ -43,5 +50,3 @@ L’autorisation vaut pendant <ins>toute la durée de l’adhésion et se prolon
     <iframe src="https://www.helloasso.com/associations/ballan-ce-ton-de/adhesions/adhesion-2024-2025/widget" class="w-full h-[1600px]" allowtransparency="true" />
   </UPageSection>
 </template>
-<script setup lang="ts">
-</script>

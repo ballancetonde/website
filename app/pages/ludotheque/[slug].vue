@@ -9,6 +9,11 @@ function extractYouTubeId(url: string): string | null {
   const match = url.match(youtubeRegex);
   return match ? match[1] : null;
 }
+
+useSeoMeta({
+  title: game.value.title,
+  description: game.value.description,
+})
 </script>
 
 <template>
@@ -38,6 +43,7 @@ function extractYouTubeId(url: string): string | null {
         </template>
       </UPageHeader>
       <UPageBody>
+
         <ContentRenderer :value="game" />
 
         <USeparator v-if="game.video" />

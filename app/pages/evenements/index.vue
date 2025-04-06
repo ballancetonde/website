@@ -5,6 +5,11 @@ const { data: nextEvents } = await useAsyncData(useRoute().path + '-next', () =>
 const { data: previousEvents } = await useAsyncData(useRoute().path + '-prev', () => {
   return queryCollection('events').where('date', '<', new Date().toISOString()).order('date', 'DESC').all()
 })
+
+useSeoMeta({
+  title: 'Nos événements',
+  description: 'Nous organisons deux événements par mois, à Ballan Miré, pour partager des moments ludiques et conviviaux autour d\'une grande variété de jeux',
+})
 </script>
 
 <template>

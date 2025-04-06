@@ -2,6 +2,11 @@
 const { data: games } = await useAsyncData(useRoute().path, () => {
   return queryCollection('games').all()
 })
+
+useSeoMeta({
+  title: 'Notre ludothèque',
+  description: 'Retrouvez-ici nos différents jeux',
+})
 </script>
 
 <template>
