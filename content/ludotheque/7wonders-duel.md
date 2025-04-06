@@ -36,6 +36,7 @@ Une partie se termine immédiatement en cas de suprématie militaire, de suprém
 Si aucun joueur n’a remporté la victoire par suprématie avant la fin de l’Âge III, le joueur qui totalise le plus de points de victoire remporte la partie.
 
 ### 7 Wonders Duel, c’est aussi :
+
 - Un jeu pensé et conçu uniquement pour deux joueurs.
 - De très nombreuses interactions à de nombreux niveaux de jeu qui rendent les parties haletantes du début jusqu’à la fin.
 - L’union de deux des plus grands auteurs contemporains (Antoine Bauza et Bruno Cathala) autour de l'univers du jeu le plus primé au monde.
