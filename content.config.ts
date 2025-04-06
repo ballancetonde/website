@@ -16,9 +16,9 @@ export default defineContentConfig({
         }),
         games: defineCollection({
             // Load every file inside the `content` directory
-            source: 'ludotheque/*.yml',
+            source: 'ludotheque/*.md',
             // Specify the type of content in this collection
-            type: 'data',
+            type: 'page',
             schema: z.object({
                 title: z.string(),
                 description: z.string(),

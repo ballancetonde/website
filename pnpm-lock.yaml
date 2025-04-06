@@ -17,6 +17,9 @@ importers:
       '@nuxt/content':
         specifier: ^3.4.0
         version: 3.4.0(magicast@0.3.5)(typescript@5.8.2)
+      '@nuxt/scripts':
+        specifier: ^0.11.5
+        version: 0.11.5(@unhead/vue@2.0.0(vue@3.5.13(typescript@5.8.2)))(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)(magicast@0.3.5)(nuxt@3.16.1(@parcel/watcher@2.5.1)(better-sqlite3@11.9.1)(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(rollup@4.37.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
       '@nuxt/ui-pro':
         specifier: 3.0.1
         version: 3.0.1(@babel/parser@7.26.10)(change-case@5.4.4)(db0@0.3.1(better-sqlite3@11.9.1))(embla-carousel@8.5.2)(ioredis@5.6.0)(magicast@0.3.5)(typescript@5.8.2)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
@@ -482,6 +485,25 @@ packages:
   '@nuxt/schema@3.16.1':
     resolution: {integrity: sha512-Ri8bmT6MljpVR4DlXf9+acfgGaI4OTEdAzJU5aF2rJS78abtpnBxjXBG65kuhoL1LUlfKppDl8fTkUw5LM2JXQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
+
+  '@nuxt/scripts@0.11.5':
+    resolution: {integrity: sha512-dGoeUh2GTCWffgSbNv8bURHRiLkddU6rZgmWikQViyYBrQ6rN3qHPA1GI50x/KJeZjzQJK2hh1E35Y7EkwU18w==}
+    peerDependencies:
+      '@stripe/stripe-js': ^5.10.0
+      '@types/google.maps': ^3.58.1
+      '@types/vimeo__player': ^2.18.3
+      '@types/youtube': ^0.1.0
+      '@unhead/vue': ^2.0.0-rc.8
+      nuxt: ^3.16.0
+    peerDependenciesMeta:
+      '@stripe/stripe-js':
+        optional: true
+      '@types/google.maps':
+        optional: true
+      '@types/vimeo__player':
+        optional: true
+      '@types/youtube':
+        optional: true
 
   '@nuxt/telemetry@2.6.6':
     resolution: {integrity: sha512-Zh4HJLjzvm3Cq9w6sfzIFyH9ozK5ePYVfCUzzUQNiZojFsI2k1QkSBrVI9BGc6ArKXj/O6rkI6w7qQ+ouL8Cag==}
@@ -3793,6 +3815,14 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
+  valibot@1.0.0:
+    resolution: {integrity: sha512-1Hc0ihzWxBar6NGeZv7fPLY0QuxFMyxwYR2sF1Blu7Wq7EnremwY2W02tit2ij2VJT8HcSkHAQqmFfl77f73Yw==}
+    peerDependencies:
+      typescript: '>=5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   vaul-vue@0.4.1:
     resolution: {integrity: sha512-A6jOWOZX5yvyo1qMn7IveoWN91mJI5L3BUKsIwkg6qrTGgHs1Sb1JF/vyLJgnbN1rH4OOOxFbtqL9A46bOyGUQ==}
     peerDependencies:
@@ -4758,6 +4788,49 @@ snapshots:
       defu: 6.1.4
       pathe: 2.0.3
       std-env: 3.8.1
+
+  '@nuxt/scripts@0.11.5(@unhead/vue@2.0.0(vue@3.5.13(typescript@5.8.2)))(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)(magicast@0.3.5)(nuxt@3.16.1(@parcel/watcher@2.5.1)(better-sqlite3@11.9.1)(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(rollup@4.37.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))':
+    dependencies:
+      '@nuxt/kit': 3.16.1(magicast@0.3.5)
+      '@unhead/vue': 2.0.0(vue@3.5.13(typescript@5.8.2))
+      '@vueuse/core': 13.0.0(vue@3.5.13(typescript@5.8.2))
+      consola: 3.4.2
+      defu: 6.1.4
+      h3: 1.15.1
+      magic-string: 0.30.17
+      nuxt: 3.16.1(@parcel/watcher@2.5.1)(better-sqlite3@11.9.1)(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(rollup@4.37.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
+      ofetch: 1.4.1
+      ohash: 2.0.11
+      pathe: 2.0.3
+      pkg-types: 2.1.0
+      sirv: 3.0.1
+      std-env: 3.8.1
+      ufo: 1.5.4
+      unplugin: 2.2.2
+      unstorage: 1.15.0(db0@0.3.1(better-sqlite3@11.9.1))(ioredis@5.6.0)
+      valibot: 1.0.0(typescript@5.8.2)
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@deno/kv'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@upstash/redis'
+      - '@vercel/blob'
+      - '@vercel/kv'
+      - aws4fetch
+      - db0
+      - idb-keyval
+      - ioredis
+      - magicast
+      - typescript
+      - uploadthing
+      - vue
 
   '@nuxt/telemetry@2.6.6(magicast@0.3.5)':
     dependencies:
@@ -8810,6 +8883,10 @@ snapshots:
   uri-js-replace@1.0.1: {}
 
   util-deprecate@1.0.2: {}
+
+  valibot@1.0.0(typescript@5.8.2):
+    optionalDependencies:
+      typescript: 5.8.2
 
   vaul-vue@0.4.1(reka-ui@2.1.1(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2)):
     dependencies:

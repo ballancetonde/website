@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   modules: [
       '@nuxt/ui-pro',
       '@nuxt/content',
+      '@nuxt/scripts',
   ],
   ui: {
     colorMode: false,

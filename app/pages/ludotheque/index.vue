@@ -20,7 +20,16 @@ const { data: games } = await useAsyncData(useRoute().path, () => {
             :description="game.description"
             :image="game.image"
             :title="game.title"
-        />
+            :to="game.path"
+            :ui="{header: 'aspect-square'}"
+        >
+          <template #description>
+            <div class="space-x-3">
+              <UBadge variant="subtle" icon="i-lucide-users" v-if="game.players">{{game.players.min}} <span v-if="game.players.min !== game.players.max">à {{game.players.max}}</span>joueurs</UBadge>
+              <UBadge variant="subtle" icon="i-lucide-hourglass" v-if="game.play_time_mins">{{game.play_time_mins}} minutes</UBadge>
+            </div>
+          </template>
+        </UBlogPost>
       </UBlogPosts>
     </UPageBody>
   </UContainer>
