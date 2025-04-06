@@ -6,6 +6,9 @@ title: 7 Wonders Duel
 video: https://www.youtube.com/watch?v=wcHPgvhQWvQ
 image: /ludotheque/7wonders-duel.webp
 play_time_mins: 30
+description: Face à votre adversaire, menez votre civilisation à la victoire
+  grâce au prestige de vos constructions, à votre force militaire ou à votre
+  suprématie scientifique. Le tout en 30 minutes seulement.
 ---
 
 ## 7 Wonders Duel, un jeu à deux dans l’univers de 7 Wonders, le jeu le plus primé au monde !
