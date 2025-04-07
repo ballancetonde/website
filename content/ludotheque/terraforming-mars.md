@@ -6,6 +6,7 @@ players:
   min: 1
   max: 5
 video: https://www.youtube.com/watch?v=r0EwRhyicyo
+description: Un jeu stratégique de développement dans un univers de science-fiction
 ---
 
 ## **Terraforming Mars**
