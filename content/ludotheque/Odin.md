@@ -1,6 +1,6 @@
 ---
 title: Odin
-image: ""
+image: /ludotheque/odin.webp
 play_time_mins: 15
 players:
   max: 6
