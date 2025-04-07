@@ -46,7 +46,7 @@ useSeoMeta({
 
         <ContentRenderer :value="game" />
 
-        <USeparator v-if="game.video" />
+        <USeparator v-if="game.video && game.body.value.length" />
 
         <ScriptYouTubePlayer
             v-if="game.video"
