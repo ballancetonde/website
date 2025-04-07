@@ -1,6 +1,6 @@
 <script setup>
 const { data: games } = await useAsyncData(useRoute().path, () => {
-  return queryCollection('games').all()
+  return queryCollection('games').order('title', 'ASC').all()
 })
 
 useSeoMeta({
