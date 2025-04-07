@@ -7,6 +7,9 @@ players:
   min: 3
 video: https://www.youtube.com/watch?v=tvI8eFfm6Bk
 donation: true
+description: À la tête d’une colonie naissante, explorez l’île de Catan,
+  construisez routes et villages, échangez vos ressources et développez votre
+  empire.
 ---
 
 ### **Catan**, un jeu de développement stratégique devenu un classique du jeu moderne !
