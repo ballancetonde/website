@@ -5,13 +5,14 @@ players:
 title: Sync or Swim
 image: /ludotheque/sync-or-swim.webp
 video: https://www.youtube.com/watch?v=tRlAgHsqmzA
+play_time_mins: 45
 ---
 
 # **Sync or Swim — Le jeu coop’ où la synchro, c’est la survie !**
 
 Bienvenue dans le monde **du ballet synchronisé… version extrême** ! Dans **Sync or Swim**, vous et votre équipe incarnez des nageurs synchronisés tentant de **réaliser une chorégraphie parfaite**, en rythme, sous la pression, et contre la montre. Une appli donne le tempo. À vous de **jouer vos cartes dans le bon ordre… sans parler**.
 
-Un jeu **co-op explosif**, pour **2 à 6 joueurs**, dès **10 ans**, en **20 minutes de pure tension synchronisée** !
+Un jeu **co-op explosif**, pour **3 à 6 joueurs**, dès **10 ans**, en **20 minutes de pure tension synchronisée** !
 
 ### La synchronisation est la clé 🔑
 
