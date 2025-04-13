@@ -5,6 +5,7 @@ players:
   max: 8
 play_time_mins: 30
 image: /ludotheque/mojo.jpg
+video: https://www.youtube.com/watch?v=QCfVQtM-ofE
 ---
 
 # **Mojo — Le petit jeu qui retourne l’ambiance… et les cerveaux.**
