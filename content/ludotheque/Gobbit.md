@@ -6,6 +6,7 @@ players:
 play_time_mins: 15
 image: /ludotheque/gobbit.webp
 video: https://www.youtube.com/watch?v=yxd4wmyKWFs
+donation: true
 ---
 
 # **Gobbit — La chaîne alimentaire n’a jamais été aussi rapide.**
