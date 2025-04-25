@@ -15,10 +15,9 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
-  icon: {
-    clientBundle: {
-      scan: true,
-      sizeLimitKb: 256,
-    },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
   }
 })
