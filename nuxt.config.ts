@@ -7,9 +7,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
   modules: [
-      '@nuxt/ui-pro',
-      '@nuxt/content',
-      '@nuxt/scripts',
+    '@nuxt/ui-pro',
+    '@nuxt/content',
+    '@nuxt/scripts',
+    '@nuxthub/core'
   ],
   ui: {
     colorMode: false,
