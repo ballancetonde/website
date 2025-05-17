@@ -29,14 +29,12 @@ useSeoMeta({
             :image="post.image"
             :date="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
             :title="post.title"
-            :orientation="'horizontal'"
-            class="col-span-full"
             :ui="{
             description: 'line-clamp-2'
           }"
         />
       </UBlogPosts>
-      <UPageSection title="Événements passées">
+      <UPageSection title="Événements passés">
         <UBlogPosts>
           <UBlogPost
               v-for="(post, index) in previousEvents"
