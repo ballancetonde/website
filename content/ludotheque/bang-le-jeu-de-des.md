@@ -1,5 +1,5 @@
 ---
-image: /ludotheque/bang-le-jeu-de-des.webp
+image: /ludotheque/bang-le-jeu-de-des-walking-dead.jpg
 donation: true
 play_time_mins: 15
 players:
