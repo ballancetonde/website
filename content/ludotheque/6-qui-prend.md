@@ -5,7 +5,7 @@ players:
   max: 10
 play_time_mins: 30
 donation: true
-image: /ludotheque/6-qui-prend.jpeg
+image: /ludotheque/6-qui-prend.jpg
 video: https://www.youtube.com/watch?v=kEvS1t9bpEk
 ---
 
