@@ -22,7 +22,7 @@ useSeoMeta({
   </UPageSection>
   <UPageSection title="Tarifs d’adhésion" orientation="horizontal" reverse description="L'adhésion est valable pour toute l’année scolaire (de septembre à août)." :features="[
       {title: 'Tarif découverte (première soirée)', description: 'Gratuit', icon: 'i-lucide-dices'},
-      {title: 'Tarif individuel', description: '15€ / année scolaire', icon: 'i-lucide-dices'},
+      {title: 'Tarif individuel', description: '20€ / année scolaire', icon: 'i-lucide-dices'},
       {title: 'Tarif familial - 2 adhésions individuelles', description: 'Dès que deux personnes du même foyer ont une adhésion individuelle, les autres membres de la famille peuvent les accompagner librement aux événements.', icon: 'i-lucide-dices'},
 
   ]">
