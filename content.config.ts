@@ -1,4 +1,5 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { z } from 'zod'
+import { defineCollection, defineContentConfig, property } from '@nuxt/content'
 
 export default defineContentConfig({
     collections: {
@@ -9,8 +10,8 @@ export default defineContentConfig({
             type: 'data',
             schema: z.object({
                 title: z.string(),
-                date: z.string(),
-                image: z.string().editor({ input: 'media' }),
+                date: z.date(),
+                image: property(z.string()).editor({ input: 'media' }),
                 address: z.string()
             })
         }),
@@ -21,8 +22,8 @@ export default defineContentConfig({
             type: 'page',
             schema: z.object({
                 title: z.string(),
-                seo: z.string().editor({hidden: true}),
-                navigation: z.string().editor({hidden: true}),
+                seo: property(z.string()).editor({hidden: true}),
+                navigation: property(z.string()).editor({hidden: true}),
                 players: z.object({
                     min: z.number(),
                     max: z.number(),
@@ -31,7 +32,7 @@ export default defineContentConfig({
                 donation: z.boolean(),
                 purchase_date: z.string().date(),
                 video: z.string(),
-                image: z.string().editor({ input: 'media' }),
+                image: property(z.string()).editor({ input: 'media' }),
             })
         })
     }
