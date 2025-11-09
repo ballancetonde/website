@@ -10,7 +10,7 @@ export default defineContentConfig({
             type: 'data',
             schema: z.object({
                 title: z.string(),
-                date: z.date(),
+                date: z.string(),
                 image: property(z.string()).editor({ input: 'media' }),
                 address: z.string()
             })

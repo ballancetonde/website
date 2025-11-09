@@ -1,9 +1,9 @@
 <script setup>
 const { data: nextEvents } = await useAsyncData(useRoute().path + '-next', () => {
-  return queryCollection('events').where('date', '>', new Date().toISOString()).order('date', 'ASC').all()
+  return queryCollection('events').where('date', '>=', new Date().toISOString().split('T')[0]).order('date', 'ASC').all()
 })
 const { data: previousEvents } = await useAsyncData(useRoute().path + '-prev', () => {
-  return queryCollection('events').where('date', '<', new Date().toISOString()).order('date', 'DESC').all()
+  return queryCollection('events').where('date', '<', new Date().toISOString().split('T')[0]).order('date', 'DESC').all()
 })
 
 useSeoMeta({

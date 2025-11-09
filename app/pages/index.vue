@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
-  return queryCollection('events').where('date', '>', new Date().toISOString()).order('date', 'ASC').first()
+  return queryCollection('events').where('date', '>=', new Date().toISOString().split('T')[0]).order('date', 'ASC').first()
 })
 </script>
 
