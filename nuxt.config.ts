@@ -6,8 +6,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/content',
+    'nuxt-studio',
     '@nuxt/scripts',
-    '@nuxthub/core'
+    '@nuxthub/core',
+
   ],
   ui: {
     colorMode: false,
@@ -16,5 +18,17 @@ export default defineNuxtConfig({
     preview: {
       api: 'https://api.nuxt.studio'
     }
+  },
+  studio: {
+      route: '/admin',
+      repository: {
+          provider: 'github',
+          owner: 'ballancetonde',
+          repo: 'website',
+          branch: 'main'
+      },
+      i18n: {
+          defaultLocale: 'fr'
+      }
   }
 })

@@ -10,19 +10,24 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.27",
-    "@iconify-json/simple-icons": "^1.2.26",
-    "@nuxt/content": "^3.7.1",
-    "@nuxt/scripts": "^0.13.0",
-    "@nuxt/ui": "4.1.0",
-    "@nuxthub/core": "0.9.0",
-    "better-sqlite3": "^12.4.1",
-    "nuxt": "^4.2.1",
+    "@iconify-json/lucide": "^1.2.82",
+    "@iconify-json/simple-icons": "^1.2.63",
+    "@nuxt/content": "~3.9.0",
+    "@nuxt/scripts": "^0.13.2",
+    "@nuxt/ui": "^4.3.0",
+    "@nuxthub/core": "~0.9.1",
+    "better-sqlite3": "^12.5.0",
+    "nuxt": "^4.2.2",
+    "nuxt-studio": "1.0.0-beta.3",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "wrangler": "^4.13.1"
+    "wrangler": "^4.54.0"
   },
-  "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276"
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  }
 }

@@ -22,8 +22,8 @@ export default defineContentConfig({
             type: 'page',
             schema: z.object({
                 title: z.string(),
-                seo: property(z.string()).editor({hidden: true}),
-                navigation: property(z.string()).editor({hidden: true}),
+                seo: property({}).editor(),
+                navigation: property({}).editor({ hidden: true }),
                 players: z.object({
                     min: z.number(),
                     max: z.number(),
