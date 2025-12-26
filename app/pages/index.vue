@@ -11,7 +11,7 @@ const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
       :ui="{ container: 'md:pt-18 lg:pt-20' }"
       :links="[{to: '/evenements', label: 'Nos événements', icon: 'i-lucide-calendar-days', variant: 'subtle', color: 'neutral'}, {to: '/adhesion', label: 'Adhérer à l\'association', icon: 'i-lucide-arrow-right', trailing: true}]"
   >
-    <UPageSection title="Prochain événement"
+    <UPageSection title="Prochain événement" v-if="post"
                   :links="[{to: '/evenements', label: 'Nos autres événements', icon: 'i-lucide-arrow-right', trailing: true}]" :ui="{description: 'text-left'}">
       <template #description>
         <UBlogPosts>
