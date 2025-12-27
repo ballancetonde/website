@@ -31,6 +31,7 @@ export default defineNuxtConfig({
           defaultLocale: 'fr'
       }
   },
+  sourcemap: false,
   nitro: {
       preset: "cloudflare_module",
       cloudflare: {
