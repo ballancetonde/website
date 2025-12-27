@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { fr } from '@nuxt/ui/locale'
+
 useHead({
   meta: [
     { charset: 'utf-8' },
@@ -20,7 +22,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="fr">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
