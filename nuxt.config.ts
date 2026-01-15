@@ -25,6 +25,7 @@ export default defineNuxtConfig({
           defaultLocale: 'fr'
       }
   },
+  sourcemap: false,
   hub: {
     db: {
       dialect: 'sqlite',
