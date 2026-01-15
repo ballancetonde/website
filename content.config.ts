@@ -10,7 +10,7 @@ export default defineContentConfig({
             type: 'data',
             schema: z.object({
                 title: z.string(),
-                date: z.string(),
+                date: z.string().datetime(),
                 image: property(z.string()).editor({ input: 'media' }),
                 address: z.string()
             })
@@ -22,8 +22,8 @@ export default defineContentConfig({
             type: 'page',
             schema: z.object({
                 title: z.string(),
-                seo: property({}).editor(),
-                navigation: property({}).editor({ hidden: true }),
+                seo: property(z.object({})).editor({ hidden: true }),
+                navigation: property(z.object({})).editor({ hidden: true }),
                 players: z.object({
                     min: z.number(),
                     max: z.number(),

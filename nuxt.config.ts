@@ -9,15 +9,9 @@ export default defineNuxtConfig({
     'nuxt-studio',
     '@nuxt/scripts',
     '@nuxthub/core',
-
   ],
   ui: {
     colorMode: false,
-  },
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio'
-    }
   },
   studio: {
       route: '/admin',
@@ -32,11 +26,11 @@ export default defineNuxtConfig({
       }
   },
   sourcemap: false,
-  nitro: {
-      preset: "cloudflare_module",
-      cloudflare: {
-          deployConfig: true,
-          nodeCompat: true
-      }
-  }
+  hub: {
+    db: {
+      dialect: 'sqlite',
+      driver: 'd1',
+      connection: { databaseId: '5305c37f-7d2d-4a8d-8f56-050f6fdaa5a4' }
+    },
+  },
 })

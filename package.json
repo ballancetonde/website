@@ -12,13 +12,13 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.82",
     "@iconify-json/simple-icons": "^1.2.63",
-    "@nuxt/content": "~3.9.0",
+    "@nuxt/content": "^3.10.0",
     "@nuxt/scripts": "^0.13.2",
     "@nuxt/ui": "^4.3.0",
-    "@nuxthub/core": "~0.9.1",
+    "@nuxthub/core": "^0.10.4",
     "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2",
-    "nuxt-studio": "1.0.0-beta.3",
+    "nuxt": "4.2.2",
+    "nuxt-studio": "1.1.0",
     "vue": "latest",
     "vue-router": "latest"
   },
