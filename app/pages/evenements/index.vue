@@ -27,8 +27,8 @@ useSeoMeta({
             :key="index"
             :description="post.address"
             :image="post.image"
-            :date="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
-            :title="post.title"
+            :date="post.title"
+            :title="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
             :ui="{
             description: 'line-clamp-2'
           }"
