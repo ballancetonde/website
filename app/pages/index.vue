@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import {formatEventDate} from "~/utils/formatEventDate.ts";
+
 const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
-  return queryCollection('events').where('date', '>=', new Date().toISOString().split('T')[0]).order('date', 'ASC').first()
+  return queryCollection('events').where('start_date', '>=', new Date().toISOString().split('T')[0]).order('start_date', 'ASC').first()
 })
 </script>
 
@@ -19,7 +21,8 @@ const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
               :description="post.address"
               :image="post.image"
               :date="post.title"
-              :title="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+              :to="post.to"
+              :title="formatEventDate(post.start_date, post.end_date)"
               :orientation="'horizontal'"
               class="col-span-full"
               :ui="{
@@ -29,7 +32,6 @@ const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
         </UBlogPosts>
       </template>
     </UPageSection>
-    <img src="/soiree-jeu-2.jpg" />
   </UPageHero>
 
 </template>

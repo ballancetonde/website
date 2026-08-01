@@ -3,6 +3,12 @@ const { data: game } = await useAsyncData(useRoute().path, () => {
   return queryCollection('games').path(useRoute().path).first()
 })
 
+watch(game, (game) => {
+  if (!game) {
+    throw createError({ statusCode: 404, statusMessage: 'Page introuvable', fatal: true })
+  }
+}, { immediate: true })
+
 const youtubeRegex = /^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|user|shorts)\/))([^\?&\"'>]+)/;
 
 function extractYouTubeId(url: string): string | null {

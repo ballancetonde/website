@@ -10,9 +10,11 @@ export default defineContentConfig({
             type: 'data',
             schema: z.object({
                 title: z.string(),
-                date: z.string().datetime(),
+                start_date: z.string().datetime(),
+                end_date: z.string().datetime(),
                 image: property(z.string()).editor({ input: 'media' }),
-                address: z.string()
+                address: z.string(),
+                to: z.string(),
             })
         }),
         games: defineCollection({
@@ -34,6 +36,15 @@ export default defineContentConfig({
                 video: z.string(),
                 image: property(z.string()).editor({ input: 'media' }),
             })
+        }),
+        pages: defineCollection({
+            source: {
+                include: '**/*.md',
+                exclude: [
+                    'ludotheque/*.md',
+                ],
+            },
+            type: 'page',
         })
     }
 })

@@ -1,9 +1,9 @@
 <script setup>
 const { data: nextEvents } = await useAsyncData(useRoute().path + '-next', () => {
-  return queryCollection('events').where('date', '>=', new Date().toISOString().split('T')[0]).order('date', 'ASC').all()
+  return queryCollection('events').where('start_date', '>=', new Date().toISOString().split('T')[0]).order('start_date', 'ASC').all()
 })
 const { data: previousEvents } = await useAsyncData(useRoute().path + '-prev', () => {
-  return queryCollection('events').where('date', '<', new Date().toISOString().split('T')[0]).order('date', 'DESC').all()
+  return queryCollection('events').where('start_date', '<', new Date().toISOString().split('T')[0]).order('start_date', 'DESC').all()
 })
 
 useSeoMeta({
@@ -28,7 +28,8 @@ useSeoMeta({
             :description="post.address"
             :image="post.image"
             :date="post.title"
-            :title="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
+            :to="post.to"
+            :title="formatEventDate(post.start_date, post.end_date)"
             :ui="{
             description: 'line-clamp-2'
           }"
@@ -41,8 +42,8 @@ useSeoMeta({
               :key="index"
               :description="post.address"
               :image="post.image"
-              :date="new Date(post.date).toLocaleDateString('fr', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric' })"
-              :title="post.title"
+              :title="formatEventDate(post.start_date, post.end_date)"
+              :date="post.title"
               :ui="{
             description: 'line-clamp-2'
           }"

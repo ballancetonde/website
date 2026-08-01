@@ -13,6 +13,18 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
+    mdc: {
+        components: {
+            map: {
+                hero: 'UPageHero',
+                section: 'UPageSection',
+                cta: 'UPageCta',
+                container: 'UContainer',
+                button: 'UButton',
+            }
+        },
+    },
+
   studio: {
       route: '/admin',
       repository: {

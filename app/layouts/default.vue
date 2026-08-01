@@ -15,18 +15,12 @@ onMounted(() => {
 
 const route = useRoute()
 
-const items = computed(() => [
-  {
-    label: 'Événements',
-    to: '/evenements',
-    active: route.path.startsWith('/evenements')
-  },
-  {
-    label: 'Ludothèque',
-    to: '/ludotheque',
-    active: route.path.startsWith('/ludotheque')
-  }
-])
+const appConfig = useAppConfig()
+
+const items = computed(() => appConfig.menu.map((item) => {
+  item.active = route.path.startsWith(item.to)
+  return item
+}))
 </script>
 
 <template>
