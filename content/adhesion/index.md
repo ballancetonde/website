@@ -25,6 +25,9 @@ features:
   - title: Rencontres et convivialité
     icon: i-lucide-dices
     description: avec d'autres passionnés de jeux de société.
+links:
+- label: Adhérer en ligne
+  to: /adhesion/payer
 ---
 #default
 ![](/soiree-jeu-1.jpg)
@@ -46,6 +49,9 @@ features:
 - title: Tarif familial - 2 adhésions individuelles
   icon: i-lucide-dices
   description: Dès que deux personnes du même foyer ont une adhésion individuelle, les autres membres de la famille peuvent les accompagner librement aux événements.
+links:
+- label: Adhérer en ligne
+  to: /adhesion/payer
 ---
 #default
 ![](/soiree-jeu-2.jpg)
