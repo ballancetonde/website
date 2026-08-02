@@ -11,19 +11,8 @@ export default defineNuxtConfig({
     '@nuxthub/core',
   ],
   ui: {
-    colorMode: false,
+    colorMode: false
   },
-    mdc: {
-        components: {
-            map: {
-                hero: 'UPageHero',
-                section: 'UPageSection',
-                cta: 'UPageCta',
-                container: 'UContainer',
-                button: 'UButton',
-            }
-        },
-    },
 
   studio: {
       route: '/admin',

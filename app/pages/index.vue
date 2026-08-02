@@ -4,6 +4,10 @@ import {formatEventDate} from "~/utils/formatEventDate.ts";
 const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
   return queryCollection('events').where('start_date', '>=', new Date().toISOString().split('T')[0]).order('start_date', 'ASC').first()
 })
+
+const {data: featuredPost} = await useAsyncData(useRoute().path + '-next-featured', () => {
+  return queryCollection('events').where('start_date', '>=', new Date().toISOString().split('T')[0]).where('featured', '=', true).order('start_date', 'ASC').first()
+})
 </script>
 
 <template>
@@ -13,7 +17,26 @@ const {data: post} = await useAsyncData(useRoute().path + '-next', () => {
       :ui="{ container: 'md:pt-18 lg:pt-20' }"
       :links="[{to: '/evenements', label: 'Nos événements', icon: 'i-lucide-calendar-days', variant: 'subtle', color: 'neutral'}, {to: '/adhesion', label: 'Adhérer à l\'association', icon: 'i-lucide-arrow-right', trailing: true}]"
   >
-    <UPageSection title="Prochain événement" v-if="post"
+    <UPageSection title="Événement à la une" v-if="featuredPost"
+                  :links="[{to: '/evenements', label: 'Nos autres événements', icon: 'i-lucide-arrow-right', trailing: true}]" :ui="{description: 'text-left'}">
+      <template #description>
+        <UBlogPosts>
+          <UBlogPost
+              :description="featuredPost.address"
+              :image="featuredPost.image"
+              :date="featuredPost.title"
+              :to="featuredPost.to"
+              :title="formatEventDate(featuredPost.start_date, featuredPost.end_date)"
+              :orientation="'horizontal'"
+              class="col-span-full"
+              :ui="{
+              description: 'line-clamp-2'
+            }"
+          />
+        </UBlogPosts>
+      </template>
+    </UPageSection>
+    <UPageSection title="Prochain événement" v-if="post && (!featuredPost || post.id !== featuredPost.id)"
                   :links="[{to: '/evenements', label: 'Nos autres événements', icon: 'i-lucide-arrow-right', trailing: true}]" :ui="{description: 'text-left'}">
       <template #description>
         <UBlogPosts>

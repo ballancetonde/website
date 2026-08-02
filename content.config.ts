@@ -4,23 +4,20 @@ import { defineCollection, defineContentConfig, property } from '@nuxt/content'
 export default defineContentConfig({
     collections: {
         events: defineCollection({
-            // Load every file inside the `content` directory
             source: 'evenements/*.yml',
-            // Specify the type of content in this collection
             type: 'data',
             schema: z.object({
                 title: z.string(),
                 start_date: z.string().datetime(),
-                end_date: z.string().datetime(),
+                end_date: z.string().datetime().optional(),
                 image: property(z.string()).editor({ input: 'media' }),
                 address: z.string(),
-                to: z.string(),
+                to: z.string().optional(),
+                featured: z.boolean().default(false).optional(),
             })
         }),
         games: defineCollection({
-            // Load every file inside the `content` directory
             source: 'ludotheque/*.md',
-            // Specify the type of content in this collection
             type: 'page',
             schema: z.object({
                 title: z.string(),

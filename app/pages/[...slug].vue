@@ -8,6 +8,11 @@ watch(page, (page) => {
     throw createError({ statusCode: 404, statusMessage: 'Page introuvable', fatal: true })
   }
 }, { immediate: true })
+
+useSeoMeta({
+  title: page.value?.title,
+  description: page.value?.description,
+})
 </script>
 
 <template>

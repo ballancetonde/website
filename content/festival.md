@@ -1,4 +1,4 @@
-::hero
+::u-page-hero
 ---
 orientation: horizontal
 title: Festival des Jeux

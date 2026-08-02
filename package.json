@@ -20,7 +20,7 @@
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.2",
     "nuxt": "4.5.1",
-    "nuxt-studio": "^1.7.0",
+    "nuxt-studio": "https://pkg.pr.new/nuxt-studio@eff5a6b",
     "vue": "latest",
     "vue-router": "latest"
   },
