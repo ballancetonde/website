@@ -31,6 +31,6 @@ L’autorisation vaut pendant toute la durée de l’adhésion et se prolonge au
 
 *Pour information, la prise et l’utilisation de photos de groupe lors d’évènements d’actualité, manifestation publique et dans des lieux publiques ne sont pas soumise à une autorisation individuelle des personnes photographiées sous réserve de ne pas exposer une personne comme étant le sujet principal de l’image et ne pas excéder le droit à l’information (pas de détournement de l’objet et d’utilisation à des fins commerciales).*
 
-  :::iframe{allowtransparency src="https://www.helloasso.com/associations/ballan-ce-ton-de/adhesions/adhesion-2025-2026-2/widget" .w-full.h-[1600px]}
+  :::iframe{allowtransparency src="https://www.helloasso.com/associations/ballan-ce-ton-de/adhesions/adhesion-2026-2027/widget" .w-full.h-[1600px]}
   :::
 ::
