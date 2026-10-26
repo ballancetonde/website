@@ -28,10 +28,16 @@ export default defineNuxtConfig({
   },
   sourcemap: false,
   hub: {
-    db: {
-      dialect: 'sqlite',
-      driver: 'd1',
-      connection: { databaseId: '5305c37f-7d2d-4a8d-8f56-050f6fdaa5a4' }
+    // En dev : SQLite local (.data/db/sqlite.db) ; en prod : D1
+    db: { dialect: 'sqlite' },
+  },
+  $production: {
+    hub: {
+      db: {
+        dialect: 'sqlite',
+        driver: 'd1',
+        connection: { databaseId: '5305c37f-7d2d-4a8d-8f56-050f6fdaa5a4' }
+      },
     },
   },
 })

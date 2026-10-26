@@ -1,0 +1,17 @@
+shamefullyHoist: true
+
+blockExoticSubdeps: false
+
+onlyBuiltDependencies:
+  - better-sqlite3
+
+allowBuilds:
+  "@parcel/watcher": true
+  "@sentry/cli": true
+  "@tailwindcss/oxide": true
+  better-sqlite3: true
+  esbuild: true
+  sharp: true
+  vue-demi: true
+  rolldown: true
+  workerd: true
