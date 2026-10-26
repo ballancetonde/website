@@ -15,29 +15,49 @@ play_time_mins: 20
 
 [Bienvenue à la cour, où]
 
+
+
 [les alliances se font et se défont]
+
+
 
 [, les sourires cachent de sombres intentions et chaque carte peut bouleverser votre destin !]
 
 
 
-[Dans][Courtisans][, votre objectif est simple :][placer les bonnes familles dans les faveurs de la Reine tout en sabotant celles de vos adversaires][. Mais attention… à la cour, personne n'est vraiment votre ami !]🗡
+\[Dans\]\[Courtisans\]\[, votre objectif est simple :\]\[placer les bonnes familles dans les faveurs de la Reine tout en sabotant celles de vos adversaires\][. Mais attention… à la cour, personne n'est vraiment votre ami !]🗡
 
 [Un jeu de cartes]
 
+
+
 [stratégique, rapide et plein de rebondissements]
+
+
 
 [, dès]
 
+
+
 [8 ans]
+
+
 
 [, pour]
 
+
+
 [2 à 5 joueurs]
+
+
 
 [, avec des parties d'environ]
 
+
+
 [20 minutes]
+
+
 
 [.]
 
@@ -50,13 +70,13 @@ play_time_mins: 20
 
 
 1. [Piochez et jouez 3 cartes]
-   [ à chaque tour.]
+[ à chaque tour.]
 2. [Placez une carte à la table de la Reine]
-   [ pour influencer le prestige d'une famille.]
+[ pour influencer le prestige d'une famille.]
 3. [Déposez une carte dans votre domaine]
-   [ pour marquer des points… ou en perdre !]
+[ pour marquer des points… ou en perdre !]
 4. [Offrez une dernière carte à un adversaire]
-   [ pour l'aider… ou lui mettre des bâtons dans les roues !]
+[ pour l'aider… ou lui mettre des bâtons dans les roues !]
 
 [À la fin de la partie, les familles dans les faveurs de la Reine rapportent des points, tandis que celles tombées en disgrâce peuvent vous coûter très cher !]
 
@@ -66,7 +86,11 @@ play_time_mins: 20
 
 [À la cour, certaines cartes possèdent des]
 
+
+
 [pouvoirs spéciaux]
+
+
 
 [ capables de renverser la situation !]
 
@@ -78,6 +102,8 @@ play_time_mins: 20
 
 [Et n'oubliez pas :]
 
+
+
 [vos adversaires peuvent aussi décider de votre destin !]
 
 
@@ -87,16 +113,16 @@ play_time_mins: 20
 
 
 - [Un jeu de stratégie accessible]
-  [, où chaque carte jouée peut faire basculer la partie.]
+[, où chaque carte jouée peut faire basculer la partie.]
 - [Des alliances et des trahisons]
-  [, pour des retournements de situation mémorables.]
+[, pour des retournements de situation mémorables.]
 - [Des interactions permanentes]
-  [, puisque vous devez aussi jouer chez vos adversaires.]
+[, puisque vous devez aussi jouer chez vos adversaires.]
 - [Des parties rapides et dynamiques]
-  [, parfaites pour enchaîner les revanches.]
+[, parfaites pour enchaîner les revanches.]
 - [De magnifiques illustrations]
-  [, qui vous plongent dans une cour royale aussi élégante qu'impitoyable.]
+[, qui vous plongent dans une cour royale aussi élégante qu'impitoyable.]
 - [Une bonne dose de bluff et de coups bas]
-  [, pour découvrir qui mérite vraiment votre confiance !]
+[, pour découvrir qui mérite vraiment votre confiance !]
 
-👑[][Alors, serez-vous le favori de la Reine… ou la prochaine victime d'un complot ?]
+👑\[\][Alors, serez-vous le favori de la Reine… ou la prochaine victime d'un complot ?]
