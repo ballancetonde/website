@@ -7,8 +7,7 @@ play_time_mins: 45
 donation: true
 image: /ludotheque/abyss.webp
 video: https://www.youtube.com/watch?v=O4YqrqbEgZM
-description: Dans les abysses, la lutte pour le trône est ouverte. Intrigues,
-  alliances, et créatures marines sont vos armes pour asseoir votre domination.
+description: Dans les abysses, la lutte pour le trône est ouverte. Intrigues, alliances, et créatures marines sont vos armes pour asseoir votre domination.
 ---
 
 ### **Abyss**, un jeu de développement et de conquête dans les profondeurs mystérieuses des océans !

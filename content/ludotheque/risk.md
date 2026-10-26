@@ -6,8 +6,7 @@ title: Risk
 play_time_mins: 60
 donation: true
 image: /ludotheque/risk.jpg
-description: "Prenez le commandement de vos armées, élaborez des alliances (ou
-  trahissez-les), lancez les dés… et partez à la conquête du monde ! "
+description: 'Prenez le commandement de vos armées, élaborez des alliances (ou trahissez-les), lancez les dés… et partez à la conquête du monde ! '
 video: https://www.youtube.com/watch?v=HXdZ6e21HY4
 ---
 

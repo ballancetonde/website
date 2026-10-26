@@ -8,7 +8,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "content:format": "node scripts/format-content.mjs",
+    "content:check": "node scripts/format-content.mjs --check"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.121",

@@ -6,9 +6,7 @@ players:
 play_time_mins: 20
 image: /ludotheque/traitres a bord.jpg
 video: https://www.youtube.com/watch?v=W7WdE0IP0a0
-description: À bord d’un navire voguant vers la Terre Promise, l’équipage devra
-  survivre aux attaques de krakens, aux incendies, aux voies d’eau… et aux
-  traîtres infiltrés parmi eux !
+description: À bord d’un navire voguant vers la Terre Promise, l’équipage devra survivre aux attaques de krakens, aux incendies, aux voies d’eau… et aux traîtres infiltrés parmi eux !
 ---
 
 ### **Traîtres à Bord**, un jeu de bluff, de coopération... et de trahison en pleine mer !

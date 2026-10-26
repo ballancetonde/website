@@ -6,8 +6,7 @@ players:
   max: 6
 play_time_mins: 20
 video: https://www.youtube.com/watch?v=l3tuahyJRXI
-description: Dans le royaume d’Asturie, la princesse cherche un confident digne
-  de sa confiance.
+description: Dans le royaume d’Asturie, la princesse cherche un confident digne de sa confiance.
 ---
 
 ### **Love Letter**, un jeu de bluff, de déduction… et de séduction !

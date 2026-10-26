@@ -1,5 +1,5 @@
 ---
-title: "Micro Macro "
+title: 'Micro Macro '
 image: /ludotheque/micro-macro.webp
 video: https://www.youtube.com/watch?v=6SwKBBMq-Jc
 donation: true

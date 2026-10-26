@@ -14,13 +14,11 @@ Un jeu pour **3 à 6 joueurs**, dès **10 ans**, en **25 minutes de chaos tactiq
 
 1. **Un nouveau tirage forme les équipes** : vos alliés d'avant deviennent parfois vos ennemis d’après !
 2. Une **règle spéciale** est révélée :
-
    - Hiérarchie des couleurs inversée
    - Jokers délirants
    - Effets imprévisibles
    - Modificateurs de manche
 3. Jouez vos cartes selon la mécanique classique du **jeu de plis** :
-
    - Vert < Rose < Orange < Bleu (de la plus faible à la plus forte)…
    - …sauf quand la règle de manche vient tout bouleverser !
 

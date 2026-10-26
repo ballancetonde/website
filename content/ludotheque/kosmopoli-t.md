@@ -6,8 +6,7 @@ players:
   max: 8
 image: /ludotheque/kosmopoli-t.webp
 video: https://www.youtube.com/watch?v=zTmgmnP4jTE
-description: Bienvenue dans le restaurant le plus cosmopolite du monde, où les
-  clients commandent dans leur langue maternelle… que personne ne comprend !
+description: Bienvenue dans le restaurant le plus cosmopolite du monde, où les clients commandent dans leur langue maternelle… que personne ne comprend !
 ---
 
 ### **Kosmopolit**, un jeu coopératif... multilingue et complètement chaotique !

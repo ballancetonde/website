@@ -7,9 +7,7 @@ play_time_mins: 10
 donation: true
 image: /ludotheque/kluster.webp
 video: https://www.youtube.com/watch?v=mjHVCnFdZ7E
-description: Des pierres aimantées, un cordon, une règle ultra simple… et une
-  tension magnétique (au sens propre !). Kluster est un jeu d’ambiance et
-  d’adresse aussi drôle qu’addictif !
+description: Des pierres aimantées, un cordon, une règle ultra simple… et une tension magnétique (au sens propre !). Kluster est un jeu d’ambiance et d’adresse aussi drôle qu’addictif !
 ---
 
 ### **Kluster**, un jeu d’adresse magnétique… simple, rapide et diablement fun !
