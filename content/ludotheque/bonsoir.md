@@ -1,11 +1,12 @@
 ---
 title: Bonsoir
+description: 'Dans Bonsoir, plonge dans l’univers complètement barré de McFly & Carlito, entre absurdité, répartie, et éclats de rire incontrôlés. Un seul objectif : improviser, argumenter ou inventer sur des thèmes débiles, brillants ou gênants… et remporter les faveurs du groupe !'
+donation: true
+image: /ludotheque/bonsoir.webp
+play_time_mins: 20
 players:
   min: 2
   max: 6
-play_time_mins: 20
-donation: true
-image: /ludotheque/bonsoir.webp
 ---
 
 # **Bonsoir — Le jeu où l’impro fait la loi (et parfois la honte).**
